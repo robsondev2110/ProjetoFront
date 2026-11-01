@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Patas Amigas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- cabeçalho -->
+  <header>
+    <div class="caixa">
+      <h2 class="logo">Patas <span>Amigas</span></h2>
+
+      <!-- menu -->
+      <nav>
+        <a href="#animais">Animais</a>
+        <a href="#adotar">Como adotar</a>
+        <a href="#visitas">Visitas</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- início -->
+    <section class="inicio">
+      <h1>Dá uma casa a quem só precisa de carinho</h1>
+      <p>Somos uma associação do Porto que acolhe cães, gatos e coelhos à espera de uma família.</p>
+      <a href="#animais" class="botao">Conhecer os animais</a>
+    </section>
+
+    <!-- animais -->
+    <section id="animais" class="secao">
+      <h2>Animais para adoção</h2>
+
+      <div class="animais">
+
+        <article class="cartao">
+          <div class="foto">
+            <span class="novo">Novo</span>
+            <img src="images/cao.svg" alt="cão">
+          </div>
+          <h3>Rex</h3>
+          <p>Cão, 3 anos. Adora passear e brincar com a bola.</p>
+        </article>
+
+        <article class="cartao">
+          <div class="foto">
+            <img src="images/gato.svg" alt="gato">
+          </div>
+          <h3>Mia</h3>
+          <p>Gata, 2 anos. Tranquila, gosta de dormir ao sol.</p>
+        </article>
+
+        <article class="cartao">
+          <div class="foto">
+            <img src="images/coelho.svg" alt="coelho">
+          </div>
+          <h3>Tambor</h3>
+          <p>Coelho, 1 ano. Curioso e muito meigo.</p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- como adotar -->
+    <section id="adotar" class="secao">
+      <h2>Como adotar</h2>
+      <ol>
+        <li>Escolhe o animal que mais combina contigo.</li>
+        <li>Preenche o formulário de contacto.</li>
+        <li>Visita-nos para o conheceres pessoalmente.</li>
+        <li>Leva o teu novo amigo para casa.</li>
+      </ol>
+    </section>
+
+    <!-- visitas -->
+    <section id="visitas" class="secao">
+      <h2>Horário de visitas</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Dia</th>
+            <th>Horário</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Segunda a sexta</td>
+            <td>14h00 às 18h00</td>
+          </tr>
+          <tr>
+            <td>Sábado</td>
+            <td>10h00 às 13h00</td>
+          </tr>
+          <tr>
+            <td>Domingo</td>
+            <td>Encerrado</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- contacto -->
+    <section id="contacto" class="secao">
+      <h2>Contacto</h2>
+      <form action="#" method="post">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="animal">Animal</label>
+        <select id="animal" name="animal">
+          <option>Rex</option>
+          <option>Mia</option>
+          <option>Tambor</option>
+        </select>
+
+        <label for="mensagem">Mensagem</label>
+        <textarea id="mensagem" name="mensagem" rows="4"></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- rodapé -->
+  <footer>
+    <p>© 2026 Patas Amigas. Rua das Flores, 123, Porto</p>
+  </footer>
+
+</body>
+</html>

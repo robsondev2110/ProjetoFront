@@ -1,0 +1,227 @@
+/* geral */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f9;
+  color: #222222;
+}
+
+a {
+  text-decoration: none;
+  color: #1d1148;
+}
+
+
+/* header */
+header {
+  background-color: white;
+  padding: 20px 0;
+}
+
+.caixa {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #1d1148;
+}
+
+.logo span {
+  color: #e40084;
+}
+
+
+/* nav */
+nav a {
+  margin-left: 20px;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #e40084;
+}
+
+
+/* início */
+.inicio {
+  background-color: #1d1148;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.inicio h1 {
+  margin-bottom: 15px;
+}
+
+.inicio p {
+  max-width: 400px;
+  margin: 0 auto 25px auto;
+  font-size: 14px;
+}
+
+.botao {
+  display: inline-block;
+  background-color: #e40084;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.botao:hover {
+  background-color: #b8006a;
+}
+
+
+/* section */
+.secao {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+.secao h2 {
+  margin-bottom: 15px;
+  color: #1d1148;
+}
+
+
+/* cartões */
+.animais {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.cartao {
+  width: 300px;
+  background-color: white;
+  border: 2px solid #1d1148;
+  border-radius: 15px;
+  padding: 10px;
+  text-align: center;
+}
+
+.cartao h3 {
+  margin-top: 10px;
+  color: #1d1148;
+}
+
+.cartao p {
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+.foto {
+  position: relative;
+}
+
+.foto img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.novo {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background-color: #e40084;
+  color: white;
+  font-size: 11px;
+  padding: 3px 10px;
+  border-radius: 10px;
+}
+
+
+/* lista */
+ol {
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+ol li {
+  margin-bottom: 8px;
+}
+
+
+/* tabela */
+table {
+  width: 500px;
+  max-width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #1d1148;
+  color: white;
+  text-align: left;
+  padding: 10px;
+}
+
+td {
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+}
+
+
+/* formulário */
+form {
+  max-width: 500px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  font-size: 13px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+}
+
+button {
+  margin-top: 20px;
+  background-color: #e40084;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #b8006a;
+}
+
+
+/* footer */
+footer {
+  background-color: #1d1148;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  padding: 20px;
+  margin-top: 30px;
+}
